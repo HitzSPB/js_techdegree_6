@@ -1,0 +1,22 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name":"Random quote generator",
+            "description":"Generating Quotes",
+            "technologies": ["HTML", "CSS", "JS"],
+            "live_link": "https://hitzspb.github.io/js_techdegree_1/",
+            "github_link": "https://github.com/HitzSPB/js_techdegree_1",
+            "images": ["/images/550x550.png"]
+        }, 
+        {
+            "id": "1",
+            "project_name":"Link and pagination",
+            "description":"A site using pagination",
+            "technologies": ["HTML", "CSS", "JS"],
+            "live_link": "https://hitzspb.github.io/js_techdegree_2/",
+            "github_link": "https://github.com/HitzSPB/js_techdegree_2",
+            "images": ["/images/550x550.png"]
+        }
+    ]
+}
