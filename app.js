@@ -6,6 +6,7 @@ const data = require("./data.json").projects;
 app.set("view engine", "pug"); 
 app.set('views', './views');
 app.use('/static', express.static('public'));
+
 // Added images otherwise the page will not show images on the index when loaded in through data
 app.use('/images', express.static('images'));
 
@@ -26,7 +27,7 @@ app.get('/about', (req, res) => {
     });
 
 
-    // Must be below above otherwise all reqests are failing
+    // Must be below above otherwise all reqests are failing. but is handling errors
     app.use((req, res, next) => {
         console.log('404 error handler called')
         const error = new Error('The requested page could not be found');
@@ -47,7 +48,7 @@ app.get('/about', (req, res) => {
         }
     })
 
-  // Listen to port 300
+  // Listen to port 3000
 app.listen(3000, () => {
     console.log('Application running on port 3000');
   });
