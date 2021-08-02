@@ -17,6 +17,42 @@
             "live_link": "https://hitzspb.github.io/js_techdegree_2/",
             "github_link": "https://github.com/HitzSPB/js_techdegree_2",
             "images": ["/images/550x550.png"]
+        }, 
+        {
+            "id": "2",
+            "project_name":"Interactive Form",
+            "description":"A form site",
+            "technologies": ["HTML", "CSS", "JS"],
+            "live_link": "https://hitzspb.github.io/js_techdegree_3/",
+            "github_link": "https://github.com/HitzSPB/js_techdegree_3",
+            "images": ["/images/550x550.png"]
+        }, 
+        {
+            "id": "3",
+            "project_name":"OOP Game Show App",
+            "description":"A gameshow app",
+            "technologies": ["HTML", "CSS", "JS"],
+            "live_link": "https://hitzspb.github.io/js_techdegree_4/",
+            "github_link": "https://github.com/HitzSPB/js_techdegree_4",
+            "images": ["/images/550x550.png"]
+        }, 
+        {
+            "id": "4",
+            "project_name":"Public API Requests ",
+            "description":"A site getting data from public api's",
+            "technologies": ["HTML", "CSS", "JS"],
+            "live_link": "https://hitzspb.github.io/js_techdegree_5/",
+            "github_link": "https://github.com/HitzSPB/js_techdegree_5",
+            "images": ["/images/550x550.png"]
+        }, 
+        {
+            "id": "5",
+            "project_name":"Static Node.js and Express Site",
+            "description":"Portfolio project using node.js",
+            "technologies": ["HTML", "CSS", "JS"],
+            "live_link": "https://hitzspb.github.io/js_techdegree_6/",
+            "github_link": "https://github.com/HitzSPB/js_techdegree_6",
+            "images": ["/images/550x550.png"]
         }
     ]
 }
