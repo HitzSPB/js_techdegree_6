@@ -17,9 +17,9 @@ body {
 
 body {
   position: relative;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "elvetica NeueH", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 1;
   color: #0a0a0a;
   background: #fefefe;
   background: #000;
@@ -32,7 +32,7 @@ article {
 }
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'ui-monospace', serif;
 }
 
 h5{
@@ -137,7 +137,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: rgb(54, 0, 0);
 }
 
 .sidebar-info-box {

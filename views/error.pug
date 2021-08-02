@@ -1,8 +1,8 @@
 extends layout.pug
 
 block content
-    h1 Server returned status code 404
-    h2 Page was not found
+    h1 Server returned status code #{error.code}
+    h2 Internal server error
     p Status Code:: #{error.code}
     p Error Message:: #{error.message}
     a(href='/') Take me back Index.js
