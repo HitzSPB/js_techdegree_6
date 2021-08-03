@@ -21,7 +21,7 @@ app.get('/about', (req, res) => {
     res.render('about');
   });
 
-  // Getting a project
+  // Getting a project with id
   app.get('/project/:id', (req, res) => {
       res.render('project', {data, data: data[req.params.id]});
     });
